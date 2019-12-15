@@ -121,16 +121,16 @@ The Raw Data Models could not utilize the Next Gen Stats data in a meaningful wa
 
 Next moving toward the Featured-Engineered Models we also get an improvement in CRPS of ~ 0.0131 so a decent improvement of roughly 0.0007. However, the greatest achievement was that the model was able to interpret the Next Gen Data in a meaningful way. The top 10 feature importance are:
 
-1) **A_dx** - acceleration of the ball carrier in the x-component (towards downfield)
-2) **A** - acceleration of the ball carrier in total magnitude
-3) **S_dx** - speed of the ball carrier in x-component (towards downfield)
-4) **Force** - weight of ball carrier times their acceleration (A)
-5) **Back From Scrimmage** - yards rusher is back from scrimmage
-6) **Defense Time to Rusher Minimum** - defense personnel that was the lowest time to rusher (calculated by distance/speed of defense player)
-7)**S** - speed magnitude of ball carrier
-8) **Defense Time to Rusher Minimum of 3 closest defensive players** - average the times of the 3 closest defensive players to the rusher
-9) **Yardline_grid**- standarized yardline to the X,Y grid system that the Next Gen Stats is based off.
-10) **Defense past scrimmages yards** - a basic measure of the penetration of the defense into the offensive backfield by adding up all the yards of any defensive personnel past the line of scrimmage. A higher number would mean that the defense was able to get past their blockers.
+1) **A_dx** - acceleration of the ball carrier in the x-component (towards downfield)  
+2) **A** - acceleration of the ball carrier in total magnitude  
+3) **S_dx** - speed of the ball carrier in x-component (towards downfield)  
+4) **Force** - weight of ball carrier times their acceleration (A)  
+5) **Back From Scrimmage** - yards rusher is back from scrimmage  
+6) **Defense Time to Rusher Minimum** - defense personnel that was the lowest time to rusher (calculated by distance/speed of defense player)  
+7)**S** - speed magnitude of ball carrier  
+8) **Defense Time to Rusher Minimum of 3 closest defensive players** - average the times of the 3 closest defensive players to the rusher  
+9) **Yardline_grid**- standarized yardline to the X,Y grid system that the Next Gen Stats is based off.  
+10) **Defense past scrimmages yards** - a basic measure of the penetration of the defense into the offensive backfield by adding up all the yards of any defensive personnel past the line of scrimmage. A higher number would mean that the defense was able to get past their blockers.  
 
 The **3 main takeaways** from developing our final model was that: 
 
