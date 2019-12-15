@@ -1,6 +1,6 @@
 # NFL: Big Data Bowl 2020
 
-**TLDR**: [Canva Presentation - NFL Big Data Bowl ](https://www.canva.com/design/DADspHdgnOU/eGDqy2PaJWTmCk7ftvxrAw/view?utm_content=DADspHdgnOU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+**tldr** - [Canva Presentation - NFL Big Data Bowl ](https://www.canva.com/design/DADspHdgnOU/eGDqy2PaJWTmCk7ftvxrAw/view?utm_content=DADspHdgnOU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 ![](https://github.com/patman17/NFL_Big_Data_Bowl/blob/master/images/bigdatabowl.png)
 **American football** is a very complex sport with many factors and player interactions that determine the success of a play. Especially with 22 players on the field (11 on the offense and 11 on the defense), it can be extremely challenging to quantify the value of specific plays and actions within a play. Utlimately, the objective of football is for the offense to move the football towards the opposing team's side of the field to score in their end zone. The offense can achieve this through two methods:   
