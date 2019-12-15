@@ -146,7 +146,7 @@ Thanks again for **Kaggle** and **NFL** for hosting this competition. This was m
 
 I hope to incorporate the following to improve my models:
 
-1) Try the advance methods / models such as the top teams aka Neural Nets based approaches and transfomers.
+1) Try the advance methods / models such as the top teams aka Neural Network-based approaches and transformers.
 2) Use more outside data / information. Especially player data to better represent the skillset of each player would be great to the model.
 3) Additional feature engineering such as  better ways to identify running lanes or successful blocks.
 
