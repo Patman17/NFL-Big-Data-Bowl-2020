@@ -1,9 +1,8 @@
 # NFL: Big Data Bowl 2020
 
-TDLR: [Canva Presentation - NFL Big Data Bowl ](https://www.canva.com/design/DADspHdgnOU/eGDqy2PaJWTmCk7ftvxrAw/view?utm_content=DADspHdgnOU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+### **TL;DR** - [Canva Presentation - NFL Big Data Bowl ](https://www.canva.com/design/DADspHdgnOU/eGDqy2PaJWTmCk7ftvxrAw/view?utm_content=DADspHdgnOU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
-![](https://github.com/patman17/NFL_Big_Data_Bowl/blob/master/images/bigdatabowl.png)
-**American football** is a very complex sport with many factors and player interactions that determine the success of a play. Especially with 22 players on the field (11 on the offense and 11 on the defense), it can be extremely challenging to quantify the value of specific plays and actions within a play. Utlimately, the objective of football is for the offense to move the football towards the opposing team's side of the field to score in their end zone. The offense can achieve this through two methods:   
+**American football** is a very complex sport with many factors and player interactions that determine the success of a play. Especially with 22 players o*n the field (11 on the offense and 11 on the defense), it can be extremely challenging to quantify the value of specific plays and actions within a play. Utlimately, the objective of football is for the offense to move the football towards the opposing team's side of the field to score in their end zone. The offense can achieve this through two methods:   
 1) run (rush) or   
 2) throw (pass) the football.   
 
@@ -25,7 +24,7 @@ Please read through this document to get your environment set up and to get more
 3) File Descriptions
 4) Methodology & Metric
 5) Consolidated Findings & Summary
-6) Last Words
+6) Last Words / Future Improvements
 7) Author
 
 ## 1) Getting Started
@@ -122,22 +121,22 @@ The Raw Data Models could not utilize the Next Gen Stats data in a meaningful wa
 
 Next moving toward the Featured-Engineered Models we also get an improvement in CRPS of ~ 0.0131 so a decent improvement of roughly 0.0007. However, the greatest achievement was that the model was able to interpret the Next Gen Data in a meaningful way. The top 10 feature importance are:
 
-1) **A_dx** - acceleration of the ball carrier in the x-component (towards downfield)
-2) **A** - acceleration of the ball carrier in total magnitude
-3) **S_dx** - speed of the ball carrier in x-component (towards downfield)
-4) **Force** - weight of ball carrier times their acceleration (A)
-5) **Back From Scrimmage** - yards rusher is back from scrimmage
-6) **Defense Time to Rusher Minimum** - defense personnel that was the lowest time to rusher (calculated by distance/speed of defense player)
-7)**S** - speed magnitude of ball carrier
-8) **Defense Time to Rusher Minimum of 3 closest defensive players** - average the times of the 3 closest defensive players to the rusher
-9) **Yardline_grid**- standarized yardline to the X,Y grid system that the Next Gen Stats is based off.
-10) **Defense past scrimmages yards** - a basic measure of the penetration of the defense into the offensive backfield by adding up all the yards of any defensive personnel past the line of scrimmage. A higher number would mean that the defense was able to get past their blockers.
+1) **A_dx** - acceleration of the ball carrier in the x-component (towards downfield)  
+2) **A** - acceleration of the ball carrier in total magnitude  
+3) **S_dx** - speed of the ball carrier in x-component (towards downfield)  
+4) **Force** - weight of ball carrier times their acceleration (A)  
+5) **Back From Scrimmage** - yards rusher is back from scrimmage  
+6) **Defense Time to Rusher Minimum** - defense personnel that was the lowest time to rusher (calculated by distance/speed of defense player)  
+7) **S** - speed magnitude of ball carrier  
+8) **Defense Time to Rusher Minimum of 3 closest defensive players** - average the times of the 3 closest defensive players to the rusher  
+9) **Yardline_grid**- standarized yardline to the X,Y grid system that the Next Gen Stats is based off.  
+10) **Defense past scrimmages yards** - a basic measure of the penetration of the defense into the offensive backfield by adding up all the yards of any defensive personnel past the line of scrimmage. A higher number would mean that the defense was able to get past their blockers.  
 
 The **3 main takeaways** from developing our final model was that: 
 
 1) Next Gen data dominated in importances. There was little game contextual data in the top features.
-2) Data about the rusher / ball carrier was the most important
-3) Defensive based data was then the second in importances to the model 
+2) Data / features about the rusher / ball carrier was the most important.
+3) Defensive based features was then the second in importances to the model. 
 4) Therefore, the interactions between the rusher and defensive right at handoff is more definitive in predicting yardages of a rushing play. 
 
 In summary, I was able to create a good model in predicting most common rush yardage situations. It still fails to predict the big breakoff plays. This is probably due to the additional factors / parameters that evolves from a more developed play. Also there is less instances of these plays to train the model on as well. In developing this model, we can see that utilizing the spatial proximity of the rusher to the defense is a great way to predict yardage. Finally, we were only given one timestamp data at handoff. We had more Next Gen data such as the aftermath of the play we could develop a very powerful model that could predict more than just yardage. 
@@ -147,7 +146,7 @@ Thanks again for **Kaggle** and **NFL** for hosting this competition. This was m
 
 I hope to incorporate the following to improve my models:
 
-1) Try the advance methods / models such as the top teams aka Neural Nets based approaches and transfomers.
+1) Try the advance methods / models such as the top teams aka Neural Network-based approaches and transformers.
 2) Use more outside data / information. Especially player data to better represent the skillset of each player would be great to the model.
 3) Additional feature engineering such as  better ways to identify running lanes or successful blocks.
 
