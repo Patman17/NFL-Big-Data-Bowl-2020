@@ -24,7 +24,7 @@ Please read through this document to get your environment set up and to get more
 3) File Descriptions
 4) Methodology & Metric
 5) Consolidated Findings & Summary
-6) Last Words
+6) Last Words / Future Improvements
 7) Author
 
 ## 1) Getting Started
