@@ -136,8 +136,8 @@ Next moving toward the Featured-Engineered Models we also get an improvement in 
 The **3 main takeaways** from developing our final model was that: 
 
 1) Next Gen data dominated in importances. There was little game contextual data in the top features.
-2) Data about the rusher / ball carrier was the most important
-3) Defensive based data was then the second in importances to the model 
+2) Data / features about the rusher / ball carrier was the most important.
+3) Defensive based features was then the second in importances to the model. 
 4) Therefore, the interactions between the rusher and defensive right at handoff is more definitive in predicting yardages of a rushing play. 
 
 In summary, I was able to create a good model in predicting most common rush yardage situations. It still fails to predict the big breakoff plays. This is probably due to the additional factors / parameters that evolves from a more developed play. Also there is less instances of these plays to train the model on as well. In developing this model, we can see that utilizing the spatial proximity of the rusher to the defense is a great way to predict yardage. Finally, we were only given one timestamp data at handoff. We had more Next Gen data such as the aftermath of the play we could develop a very powerful model that could predict more than just yardage. 
