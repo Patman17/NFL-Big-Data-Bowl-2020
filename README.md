@@ -1,6 +1,6 @@
 # NFL: Big Data Bowl 2020
 
-TDLR: [Canva NFL Big Data](https://www.canva.com/design/DADspHdgnOU/eGDqy2PaJWTmCk7ftvxrAw/view?utm_content=DADspHdgnOU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+TDLR: [Canva Presentation - NFL Big Data Bowl ](https://www.canva.com/design/DADspHdgnOU/eGDqy2PaJWTmCk7ftvxrAw/view?utm_content=DADspHdgnOU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 ![](https://github.com/patman17/NFL_Big_Data_Bowl/blob/master/images/bigdatabowl.png)
 **American football** is a very complex sport with many factors and player interactions that determine the success of a play. Especially with 22 players on the field (11 on the offense and 11 on the defense), it can be extremely challenging to quantify the value of specific plays and actions within a play. Utlimately, the objective of football is for the offense to move the football towards the opposing team's side of the field to score in their end zone. The offense can achieve this through two methods:   
@@ -87,14 +87,14 @@ where P is the predicted distribution, N is the number of plays in the test set,
 Beside the metric for evaluation, my approach to this competition was to construct a model that could utilize my domain knowledge of the NFL. Thus, I approached this problem with a decision tree based model framework since the features could be interpreted to either assist or hurt the model.
 
 I will present my findings in the following format:
-1) **NFL presentation** - please view my presentation at [Canva NFL Big Data](https://www.canva.com/design/DADspHdgnOU/eGDqy2PaJWTmCk7ftvxrAw/view?utm_content=DADspHdgnOU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink) as there are some videos in the presentation. However you can also review the pdf presentation slides attached. This we give the summary of the models and findings.
+1) **NFL presentation** - please view my presentation at [Canva NFL Big Data Bowl](https://www.canva.com/design/DADspHdgnOU/eGDqy2PaJWTmCk7ftvxrAw/view?utm_content=DADspHdgnOU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink) as there are some videos in the presentation. However you can also review the pdf presentation slides attached. This we give the summary of the models and findings.
 2) **Median Benchmark** - after browsing the presentation you can review the **0-NFL Median Baseline.ipynb** as this will walk through constructing the benchmark that I will be comparing my model against and it will provide some context to data as well. 
 3) **Raw Data Models** - in the first of model iterations we just throw the Next Gen data raw into the model without any feature engineering. The models are developed in **1-NFL_RF & LGBM SP.ipynb** 
 4) **Feature-Engineered Models** - in the finalized models we construct new features center around the rusher and run in the same model framework and see how well the models work now. Refer to **2-NFL_RF & LGBM.ipynb**.  
 5) **Play Plotter** - As an optional exploration, you can refer **3-NFL Play Plotter.ipynb**. This notebook has all the code I used to construct a plotting tool that was used supplementary to view the **Next Gen Data** in a meaningful way. There are several options and case example in this notebook already. One just need to uncomment the specific function to plot the rushing plays. I just plotted the first game of 2017 as an example.   
 
 ## 5) Consolidated Findings and Summary
-If you haven't visit [Canva NFL Big Data](https://www.canva.com/design/DADspHdgnOU/eGDqy2PaJWTmCk7ftvxrAw/view?utm_content=DADspHdgnOU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink), please do as it has my summary presentation.    
+If you haven't visit [Canva NFL Big Data Bowl](https://www.canva.com/design/DADspHdgnOU/eGDqy2PaJWTmCk7ftvxrAw/view?utm_content=DADspHdgnOU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink), please do as it has my summary presentation.    
 
 The result of the models as follow:  
 CRSP = Continuous Ranked Probability Score  
