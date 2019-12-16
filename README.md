@@ -110,7 +110,7 @@ LGMB 3 K-Folds Cross Validation: 0.01393
 Random Forest Train-Test Split: 0.01289     
 Random Forest 3 K-Folds Cross Validation: 0.01324     
 LGMB Train-Test Split: 0.01314   
-LGMB 3 K-Folds Cross Validation: 0.1332 
+LGMB 3 K-Folds Cross Validation: 0.01332 
 
 Overall, we were able to improve our model with progressing iterations. In the Raw Data Models, we average roughly 0.0138 for the CRPS which is roughly .001 improvement over the smoothed benchmark and .004 for the regular benchmark. In th raw data, we found through feature importance it utilized primarily 3 features that all were game contextual data:
 1) **yardline** - the yard marker where the line of scrimmage is at  
